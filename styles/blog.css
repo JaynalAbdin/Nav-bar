@@ -20,3 +20,25 @@ nav>ul>li>a {
 footer>p {
     text-align: center;
 }
+
+nav li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding-left: 10px;
+}
+
+nav li:hover.dropdown {
+    display: block;
+}
+
+nav li .nest-dropdown {
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding-left: 10px;
+}
+
+nav li:hover .nest-dropdown {
+    display: block;
+}
