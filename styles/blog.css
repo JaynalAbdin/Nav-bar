@@ -1,0 +1,22 @@
+nav>ul {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li:hover {
+    background-color: lightgray;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 24px;
+}
+
+footer>p {
+    text-align: center;
+}
